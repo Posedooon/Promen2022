@@ -1,8 +1,10 @@
 package lecture02;
 
 public class Human{
-     String name;
-     int age;
+    /*変数の宣言*/
+     private String name;
+     private int age;
+     /*コンストラクタ*/
    public Human(String name,int age){
        this.name = name;
        this.age = age;
