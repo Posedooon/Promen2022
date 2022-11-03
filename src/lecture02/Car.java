@@ -2,13 +2,11 @@ package lecture02;
 
 public class Car {
     private int fuel;
-    private Tire[] tires;
+    private Tire tires;
     private Engine engine;
     /*コンストラクタ*/
-    Car(Tire[] tires,Engine engine){
+    Car(){
         this.fuel = 0;
-        this.tires = tires;
-        this.engine = engine;
     }
 
     public void run(){
@@ -18,10 +16,6 @@ public class Car {
         }else{
             System.out.println("燃料が切れて走れません");
             }
-        }
-
-        public void startEngine(){
-        engine.start();
         }
     /*セッター*/
     public void setFuel(int fuel) {
