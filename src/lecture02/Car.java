@@ -19,10 +19,9 @@ public class Car {
             System.out.println("燃料が切れて走れません");
             }
         }
-
-        public void startEngine(){
+    public void startEngine(){
         engine.start();
-        }
+    }
     /*セッター*/
     public void setFuel(int fuel) {
         this.fuel = fuel;
