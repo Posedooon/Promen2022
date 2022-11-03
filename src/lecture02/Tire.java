@@ -1,7 +1,7 @@
 package lecture02;
 
 public class Tire {
-   private Tire tire[];
+   private Tire[] tires;
    private int size;
 
    Tire(int size){
