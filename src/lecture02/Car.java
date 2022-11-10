@@ -5,7 +5,7 @@ public class Car {
     private Tire[] tires;
     private Engine engine;
     /*コンストラクタ*/
-    Car(Tire[] tires,Engine engine){
+   public Car(Tire[] tires,Engine engine){
         this.fuel = 0;
         this.tires = tires;
         this.engine = engine;
