@@ -9,8 +9,8 @@ public class Exercise3_4 {
         lists.add(new Vegetable("たまねぎ",120));
         lists.add(new Vegetable("じゃがいも",154));
 
-        for (Vegetable list : lists){
-            list.print();
+        for (Vegetable vegetables : lists){
+            vegetables.print();
         }
     }
 }
