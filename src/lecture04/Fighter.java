@@ -18,9 +18,9 @@ public class Fighter {
     //死んでいたらFalseを返すように設計
     public boolean isAlive() {
         if (hp <= 0) {
-           return Boolean.FALSE;
+           return false;
         }
-        return Boolean.TRUE;
+        return true;
     }
 
     public int getHp() {
